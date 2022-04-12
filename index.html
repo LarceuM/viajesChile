@@ -33,10 +33,16 @@
                     </button>
                 <div class="collapse navbar-collapse  " id="navbarNav" >
                   <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#quienes">Quienes Somos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#destacados">Destacados</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link active" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para volver al Inicio"
+                          aria-current="page" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="quienes somos"
+                          href="#quienes">Quienes Somos</a></li>
+                    <li class="nav-item">
+                      <a class="nav-link"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona conocer nuestros destinos"
+                          href="#destacados">Destacados</a></li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para contactarnos"
+                          href="#contacto">Contacto</a></li>
                   </ul>
                 </div>
                 </div>
@@ -73,8 +79,9 @@
         </div>
 
         <div class="container py-4" style="color:#ffffff;" >
+          <div class="d-none d-sm-block">
           <div class="row">
-              <div class="col">
+              <div class="col ">
                   <h3 id="quienes" class="text-center py-2 armo_letra_titulo" >QUIENES SOMOS?</h3>
                   <hr>
               </div>
@@ -124,7 +131,7 @@
                   </div>
               </div>
           </div>
-
+          </div>
           <div class="row py-3">
               <div class="col">
                   <h3 id="destacados" class="text-center py-2 armo_letra_titulo" >DESTACADOS</h3>
@@ -187,18 +194,21 @@
             </div>
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" >
+                <input  class="form-control" id="exampleFormControlInput1" >
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Asunto</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" >
+                <input  class="form-control" id="exampleFormControlInput1" >
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
               <div class="col-12">
-                <button type="submit" class="btn armo_bg_azulino">Enviar</button>
+                <button type="button" id="enviarCorreo"
+                  class="btn armo_bg_azulino" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                  title="Presiona para enviar tu correo">Enviar</button>
+
               </div>
           </form>
         </div>
