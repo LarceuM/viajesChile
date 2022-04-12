@@ -1,9 +1,20 @@
 
 
 body{
- background-color: #000000;
+    background-color: #000000;
+    color:  #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0px;
+    opacity: 1;
 }
 
 .armo_bg_azulino{
  background-color: #0ca7b3 ;
+}
+.armo_letra_titulo{
+ font-weight: 500 ;
+}
+.armo_link_color{
+ color: #ffffff ;
 }
