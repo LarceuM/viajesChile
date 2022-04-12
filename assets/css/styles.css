@@ -1,5 +1,6 @@
+/* Ini Css Viajes Chile */
 
-
+/* por Etiqueta */
 body{
     background-color: #000000;
     color:  #ffffff;
@@ -8,13 +9,18 @@ body{
     letter-spacing: 0px;
     opacity: 1;
 }
-
+/* por class */
+/* se definieron clases propias  */
+/* fondo   */
 .armo_bg_azulino{
  background-color: #0ca7b3 ;
 }
+/* tamaño letra titulos  */
 .armo_letra_titulo{
  font-weight: 500 ;
 }
+/* cambiar el color a los iconos que tienen link   */
 .armo_link_color{
  color: #ffffff ;
 }
+/* Fin Css Viajes Chile */
